@@ -1,0 +1,14 @@
+<body>
+    <div id="root">
+        <script src="https://unpkg.com/react@^16/umd/react.production.min.js"></script>
+        <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.production.min.js"></script>
+        <script type="module">
+            const rootElement = document.getElementById('root');
+            const element = React.createElement('div', {
+                className: 'container',
+                children: 'React API Hello',
+            })
+             ReactDOM.render(element, rootElement);
+        </script>
+    </div>
+</body>
