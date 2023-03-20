@@ -11,7 +11,7 @@ function UsernameForm({ onSubmitUsername }) {
 	};
 
 	const handleChange = (e) => {
-		const { value } = event.target;
+		const { value } = e.target;
 		setUsername(value.toLowerCase());
 		// setError(isLowerCase ? null : 'username must be lower case');
 	};
