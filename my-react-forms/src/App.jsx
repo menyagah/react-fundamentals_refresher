@@ -5,6 +5,8 @@ import './App.css';
 import MyApp from '../components/UsernameForm';
 import ListComponent from '../components/ListComponent';
 import UseStateGreeting from '../components/UseStateGreeting';
+import UserGreet from '../components/UserGreet';
+import UserGreet2 from '../components/UserGreet2';
 
 function App() {
 	return (
@@ -12,7 +14,9 @@ function App() {
 			{/* <MyApp />
 			<br />
 			<ListComponent /> */}
-			<UseStateGreeting initialName="Nyagah" />
+			{/* <UseStateGreeting initialName="Nyagah" /> */}
+			{/* <UserGreet /> */}
+			<UserGreet2 initialName="George" />
 		</div>
 	);
 }
